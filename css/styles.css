@@ -1,0 +1,83 @@
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.page {max-width: 1440px;
+	text-align: center}
+
+.inlineblock {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	background-color: #000000;
+}
+
+
+ul {
+	width: 1360px;
+	text-align: center;
+ 
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+p {
+	font-weight: bold;
+	color:#ffffff;
+	font-size: 16px;
+	letter-spacing: 6px;
+}
+
+.heroimg img{
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.heroimg {
+	;
+	width: 1440px;
+	height: 100px;
+	padding-top: 20%;
+	padding-bottom: 30%;
+	background-image:url("../images/GradientBackgroud.png");
+	background-size: cover;
+	background-repeat: no-repeat;}
+
+.content {width: 500px;
+margin: 0 auto;}
+
+.button {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	font-size: 16px;}
+
+footer {
+	background-color: black;
+	padding: 1%;
+	width:1420px;
+}
+
+footer ul {
+	text-align:center; 
+	vertical-align: top;
+	padding: 10px;
+}
+
+footer li {
+	padding: 10px;
+}
