@@ -18,7 +18,7 @@ body {
 
 
 ul {
-	width: 1360px;
+	width: 100%;
 	text-align: center;
  
 }
@@ -79,6 +79,8 @@ margin: 0 auto;}
 	padding-bottom: 10px
 }
 
+#aboutimg {max-width: 50%;}
+
 .aboutright {
 	color: white;
 	font-size: 16px;
@@ -109,7 +111,7 @@ margin: 0 auto;}
 
 .flexContainer {display: flex;}
 
-.skillsleft {
+.skillsleft {font-size: 16px;
 	background-color: #5B04CF;
 	display: inline-block;
 	float: left;
@@ -173,4 +175,15 @@ footer {
 	grid-template-rows: auto;
 	grid-template-columns: auto;
 	}
+	
+	.aboutright {font-size: 10px;
+		letter-spacing: 2px;
+	line-height: 10px;
+	}
+	
+	.skillstext {font-size: 10px;
+			letter-spacing: 2px;
+	}
+	
+	
 }
