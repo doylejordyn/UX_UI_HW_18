@@ -9,7 +9,9 @@ body {
 .inlineblock {
 	display: inline-block;
 	vertical-align: top;
-	padding: 20px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #000000;
 }
 
@@ -29,7 +31,7 @@ li {
 
 }
 
-p {
+#description {
 	font-weight: bold;
 	color:#ffffff;
 	font-size: 16px;
@@ -46,7 +48,7 @@ p {
 
 .heroimg {
 	;
-	width: 1440px;
+	width: 100%;
 	height: 100px;
 	padding-top: 20%;
 	padding-bottom: 30%;
@@ -66,18 +68,43 @@ margin: 0 auto;}
 	text-align: center;
 	font-size: 16px;}
 
+.skillsleft {
+	background-color: #5B04CF;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 250px;
+	padding-top: 125px;}
+
+.skillstext {
+	color: white;
+	font-size: 16px;
+	letter-spacing: 6px;
+	line-height: 30px;}
+
+#skillsimg {
+	max-width: 50%;	
+}
+
+.skillsright {
+	background-color: #F2ECEA;
+	display: inline-block;
+	float: right;
+	width: 50%;
+	height: 250px;
+	padding-top: 125px;
+}
+
 footer {
-	background-color: black;
-	padding: 1%;
-	width:1420px;
-}
+	background-color: black; 
+	width:100%;
+	vertical-align: bottom;
+	padding-top: 30px;
+	padding-bottom: 30px;}
 
-footer ul {
-	text-align:center; 
-	vertical-align: top;
-	padding: 10px;
-}
+#listitem {
+	color: white;
+	padding: 10px;}
 
-footer li {
-	padding: 10px;
-}
+
+
